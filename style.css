@@ -1,0 +1,33 @@
+body{
+    font-family:'Verdana';
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+}
+
+select{
+    width: 70%;
+    height: 60px;
+    font-size: 2rem;
+}
+
+.characters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.characters .box{
+    flex-basis: 23%;
+    text-align: center;
+}
+
+.characters .box img{
+    width: 100%;
+}
